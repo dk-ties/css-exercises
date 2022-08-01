@@ -13,6 +13,10 @@
   background: white;
   padding: 4px 32px;
   align-self: center;
+  display: flex;
+  justify-content: flex-start;
+  align-content: space-around;
+  margin: 10px;
 }
 
 ul {
@@ -31,13 +35,24 @@ a {
 }
 .left-links{
 align-self: center;
+justify-content: center;
+flex: 4;
+margin-left: 10px;
 
 }
 .right-links{
 align-self: center;
+justify-content: center;
+flex: 4;
+margin-right: 10px;
 }
 .right-links-content {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-content: space-around;
+}
+.left-links-content {
+  display: flex;
+  justify-content: flex-start;
+  align-content: space-around;
 }
